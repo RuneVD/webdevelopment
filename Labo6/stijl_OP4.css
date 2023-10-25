@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana;
+    font-size: 1.1em;
+    background-color: silver;
+    color: darkblue;
+}
+
+h1 {
+    font-variant: all-small-caps;
+    background-color: red;
+}
+
+a:hover {
+    border-color: orange;
+    border-style: dotted;
+    border-width: 3px;
+}
+
+.stippelrand {
+    border-style: dotted;
+    border-width: 1px;
+}
