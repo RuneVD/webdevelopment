@@ -1,0 +1,7 @@
+a {
+    background-image: url("images/achtergrond.webp");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    background-size: 15px;
+}
