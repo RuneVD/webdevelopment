@@ -1,0 +1,47 @@
+html {
+    margin: 0 5%;
+}
+
+section > header {
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    height: 80px;
+    background-size: 1400px;
+
+}
+
+
+
+article {
+    background-color: lightgray;
+    margin-bottom: 0.5em;
+
+
+}
+
+
+section > article > header > h1{
+    font-family: Verdana sans-serif;
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2px;
+
+}
+
+section > article > p{
+    font-family: Verdana sans-serif;
+}
+
+section > header > h1{
+    color: white;
+}
+
+section > nav{
+    background-color: dimgray;
+}
+
+nav > a{
+    color: #61DE2A;
+}
