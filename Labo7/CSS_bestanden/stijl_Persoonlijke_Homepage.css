@@ -82,7 +82,7 @@ main > section > h3 {
 
 /* --------------------------------------------------------- */
 
-.Vriendentabel table{ border-collapse: collapse; text-align: left; width: 100%; }
+.Vriendentabel table { border-collapse: collapse; text-align: left; width: 100%; }
 
 .Vriendentabel {font: normal 12px/150% Verdana, Arial, Helvetica, sans-serif;
     background: #fff; overflow: hidden;
@@ -91,12 +91,12 @@ main > section > h3 {
     -moz-border-radius: 15px;
     border-radius: 15px; }
 
-.Vriendentabel table td, .datagrid table th
+.Vriendentabel table td, .Vriendentabel table th
 { padding: 3px 7px; }
 
 .Vriendentabel table thead th
 {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #A65B1A), color-stop(1, #7F4614) );
-
+    background:-moz-linear-gradient( center top, #A65B1A 5%, #7F4614 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#A65B1A', endColorstr='#7F4614');
     background-color:#A65B1A; color:#FFFFFF; font-size: 14px; font-weight: bold; border-left: 2px solid #BF691E; }
 .Vriendentabel table thead th:first-child { border: none; }
@@ -106,3 +106,7 @@ main > section > h3 {
 .Vriendentabel table tbody .alt td { background: #F0E5CC; color: #7F4614; }
 .Vriendentabel table tbody td:first-child { border-left: none; }
 .Vriendentabel table tbody tr:last-child td { border-bottom: none; }
+
+.Onbekend{
+    background: red;
+}
