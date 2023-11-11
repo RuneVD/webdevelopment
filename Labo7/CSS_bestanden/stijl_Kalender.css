@@ -5,7 +5,13 @@ table {
     margin-right: auto;
 }
 
-th, td {
+th {
+    text-align: center;
+    padding: 5px;
+    border: dotted 1px black;
+}
+
+td {
     text-align: center;
     padding: 5px;
     border: dotted 1px black;
@@ -29,7 +35,9 @@ td:last-child {
     background-color: rgb(35, 37, 70);
 }
 
-td:nth-child(6n+1),
+td:nth-child(6n+1){
+    background-color: rgb(255, 220, 220);
+}
 td:nth-child(6n+1) {
     background-color: rgb(255, 220, 220);
 }
