@@ -1,0 +1,9 @@
+article:nth-child(even) img {
+    float: left;
+
+}
+
+article:nth-child(odd) img {
+    float: right;
+   
+}
