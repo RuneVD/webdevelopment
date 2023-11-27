@@ -1,9 +1,32 @@
 article:nth-child(even) img {
-    float: left;
-
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 article:nth-child(odd) img {
-    float: right;
-   
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+article {
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    width: 100%;
+    overflow: hidden;
+}
+
+article:nth-child(even) {
+    margin-right: 10px;
+
+}
+
+article h2{
+    font-size: 1.25em;
+}
+
+article p{
+    font-size: 1.25em;
 }
