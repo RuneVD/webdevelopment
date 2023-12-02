@@ -22,7 +22,6 @@ div[class*="col"]{
 }
 
 @media (max-width: 767px) {
-    margin: 0 0 0px 0;
 
     .grijsmobile{
         background-color: white;
