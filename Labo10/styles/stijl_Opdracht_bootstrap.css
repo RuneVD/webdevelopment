@@ -1,0 +1,35 @@
+.lichtgrijs{
+    background-color: lightgray;
+}
+
+.lichtgrijsmobile{
+    background-color: lightgray;
+}
+
+.grijs{
+    background-color: grey;
+}
+
+.grijsmobile{
+    background-color: grey;
+}
+
+
+div[class*="col"]{
+    height: 200px;
+    border: solid white 5px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    margin: 0 0 0px 0;
+
+    .grijsmobile{
+        background-color: white;
+        color: white;
+    }
+
+    .lichtgrijsmobile{
+        background-color: white;
+    }
+}

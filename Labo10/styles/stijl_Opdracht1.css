@@ -33,19 +33,39 @@ figcaption {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
+
+    figure{
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
     body{
         background-color: #86287e;
     }
 
     figure{
         display: inline-block;
+        margin: 10px auto;
+        width: 40%;
+        height: auto;
     }
+
 
 }
 
-@media screen and (min-width: 922px){
+@media  screen and (min-width: 992px) {
     body{
         background-color: darkseagreen;
     }
+
+    figure{
+        display: inline-block;
+        width: 30%;
+        height: auto;
+        margin: 10px auto;
+    }
+
 }
