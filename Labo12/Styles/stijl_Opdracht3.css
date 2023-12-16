@@ -1,0 +1,17 @@
+html {
+    background-color: #333;
+    font-family: helvetica;
+}
+
+* {
+    padding: 10px;
+}
+
+header{
+    background-color: #ddaa00;
+}
+
+a:hover{
+    color: deeppink;
+}
+
