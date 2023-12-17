@@ -35,12 +35,12 @@ body{
     margin: 5px;
 }
 
-section{
+div{
     margin: 5px;
     background-color: white;
 }
 
-section a{
+div a{
     border: 1px #333;
     color: black;
     display: block;
